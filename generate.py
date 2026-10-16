@@ -14,12 +14,12 @@ fake = Faker()
 # CONSTANTS & CONFIGURATION
 # ---------------------------------------------------------
 MONGO_URI = "mongodb://localhost:27017/"
-DB_NAME = "globalcard"
+DB_NAME = "globalcard2"
 BATCH_SIZE = 5000  
 
 # Scale parameters (Adjust as needed for your pipeline size)
-TOTAL_MERCHANTS = 1000
-TOTAL_ACCOUNTS = 10000
+TOTAL_MERCHANTS = 10000
+TOTAL_ACCOUNTS = 100000
 MIN_TX_PER_ACCOUNT = 40
 MAX_TX_PER_ACCOUNT = 150
 
